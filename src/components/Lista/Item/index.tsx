@@ -33,7 +33,7 @@ export default function Item(
             <span>
                 {tempo}
             </span>
-            {completado && <span className={style.concluido} aria-lavel="tarefa completada"></span>}
+            {completado && <span className={style.concluido} aria-label="tarefa completada"></span>}
         </li>
     )
 }
